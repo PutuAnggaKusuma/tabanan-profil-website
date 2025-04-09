@@ -3,7 +3,7 @@
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: 'Acumin Pro', sans-serif;
     margin: 0;
     padding: 0;
@@ -19,7 +19,7 @@ main {
     gap: 1.5rem;
 }
 
-#content{
+#content {
     flex: 3;
     display: flex;
     flex-flow: column nowrap;
@@ -27,22 +27,22 @@ main {
     position: relative;
 }
 
-#content p{
+#content p {
     text-align: justify;
 }
 
-#profil-singkat, #geografi-kota, #demografi-kota, #tempat-wisata{
+#profil-singkat, #geografi-kota, #demografi-kota, #tempat-wisata {
     padding: 20px 40px;
     scroll-margin-top: 80px;
 }
 
-iframe{
+iframe {
     max-height: 350px;
     width: 100%;
     border-radius: 5px;
 }
 
-.slideshow-container{
+.slideshow-container {
     width: 100%;;
     max-height: 350px;
     position: relative;
@@ -50,7 +50,7 @@ iframe{
     z-index: 1;
 }
 
-.slide{
+.slide {
     display: none;
 }
 
@@ -59,19 +59,19 @@ iframe{
     animation-duration: 1.5s;
   }
   
-.slide-index{
+.slide-index {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.slide-index div{
+.slide-index div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.slide-index p{
+.slide-index p {
     font-style: italic;
     color:#9ca3af;
     padding: 5px 0 0 0;
@@ -98,12 +98,12 @@ iframe{
     to {opacity: 1}
 }
 
-aside{
+aside {
     flex: 1;
     position: relative;
 }
 
-footer{
+footer {
     padding: 20px;
     color: white;
     background-color: #C19A6B;
@@ -111,20 +111,20 @@ footer{
     font-weight: bold;  
 }
 
-.profile header{
+.profile header {
     text-align: center;
 }
 
-.profile.card{
+.profile.card {
     position: sticky;
     top: 70px;
 }
 
-.informasi-lainnya{
+.informasi-lainnya {
     text-align: left;
 }
 
-.featured-image{
+.featured-image {
     width: 100%;
     max-height: 350px;
     object-fit: cover;
@@ -132,37 +132,37 @@ footer{
     border-radius: 5px;
 }
 
-.creator-information-section{
+.creator-information-section {
     padding: 0 20px;
 }
 
-.profile th{
+.profile th {
     text-wrap: nowrap;
     padding: 10px 15px 5px 10px;
     text-align: left;   
 }
-.profile td{
+.profile td {
     text-wrap: wrap;    
     text-align: left;
 }
 
-.profile .figure img{
+.profile .figure img {
     width: 200px;
     height: 200px;
     border-radius: 100px;
     object-fit: cover;
 }
 
-.profile .figure figcaption{
+.profile .figure figcaption {
     padding: 5px 10px 20px 10px;
 }
 
-figure{
+figure {
     padding: 0;
     margin: 0;
 }
 
-.data-figure figcaption{
+.data-figure figcaption {
     text-align: end;
     font-style: italic;
     color:#9ca3af;
@@ -171,14 +171,14 @@ figure{
 
 }
 
-.card{  
+.card {  
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
 }
 
-.jumbotron{     
+.jumbotron {     
     font-size: 20px;
     padding: 60px;
     background-image: url("assets/image/background-image.jpg");
@@ -206,7 +206,7 @@ nav {
     
 }
 
-nav ul{
+nav ul {
     padding-inline: 4rem;
     display: flex;
     justify-content: space-evenly;
@@ -226,11 +226,11 @@ nav a {
     font-size: 20px; 
   }
 
-header{
+header {
     display: inline;
 }
 
-.social-media-section{
+.social-media-section {
     display: flex;
     justify-content:  center;
     align-items: center;    
@@ -238,7 +238,7 @@ header{
     padding: 20px 10px 5px 10px;
 }
 
-.social-media-section a{
+.social-media-section a {
     width: 60px;
     height: 60px;
     background-color: #C19A6B;
@@ -285,36 +285,36 @@ header{
     background-color: #1ebe5b;
 }
 
-@media screen and (max-width: 1200px){
-    main{
+@media screen and (max-width: 1200px) {
+    main {
         flex-flow: column nowrap;
     }
 
-    main aside{
+    main aside {
         align-self: center;
     }
 }
 
-@media screen and (max-width: 768px){
-    nav ul{
+@media screen and (max-width: 768px) {
+    nav ul {
         justify-content: center;
         text-align: center;
     }
 
-    main aside{
+    main aside {
         align-self: stretch;
     }
 }
 
-@media (max-width:450px){
+@media (max-width:450px) {
 
-    nav ul{
+    nav ul {
         justify-content: center;
         text-align: center;
         display: inline;
     }
 
-    main aside{
+    main aside {
         align-self: stretch;
     }
 }
